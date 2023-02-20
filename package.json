@@ -1,7 +1,8 @@
 {
-   "name": "fastify-nodejs-application",
+   "name": "@hexlet/code",
    "version": "0.1.0",
    "type": "module",
+   "main": "server/plugin.js",
    "description": "fastify-nodejs-application",
    "engines": {
       "node": ">=16.x"
@@ -20,7 +21,7 @@
          "dotenv/config"
       ]
    },
-   "author": "Stanislav Dzisiak",
+   "author": "Fumufu",
    "license": "ISC",
    "repository": {
       "type": "git",
