@@ -23,6 +23,7 @@ export default {
     },
     layouts: {
       application: {
+        account: 'Аккаунт',
         users: 'Пользователи',
         signIn: 'Вход',
         signUp: 'Регистрация',

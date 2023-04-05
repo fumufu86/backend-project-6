@@ -23,6 +23,7 @@ export default {
     },
     layouts: {
       application: {
+        account: 'Account',
         users: 'Users',
         signIn: 'Login',
         signUp: 'Register',
