@@ -29,6 +29,10 @@ html(lang="en")
                 if isAuthenticated()
                   li
                     a.link-dark.rounded
+                      //- a.link-dark.rounded(href=route('edit', {id: user.id}))(class="btn nav-link")= t('layouts.application.edit')
+                      //- +buttonTo(route('edit'), 'post')(class="btn nav-link" value= t('layouts.application.edit'))
+                  li
+                    a.link-dark.rounded
                       +buttonTo(route('session'), 'delete')(class="btn nav-link" value=t('layouts.application.signOut'))
                 else
                   li

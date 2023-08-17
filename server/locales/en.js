@@ -18,6 +18,10 @@ export default {
           error: 'Failed to register',
           success: 'User registered successfully',
         },
+        edit: {
+          error: 'Failed to edit',
+          success: 'User edited successfully',
+        },
       },
       authError: 'Access denied! Please login',
     },
@@ -27,6 +31,7 @@ export default {
         users: 'Users',
         signIn: 'Login',
         signUp: 'Register',
+        edit: 'Edit',
         signOut: 'Logout',
       },
     },
@@ -43,9 +48,15 @@ export default {
         lastName: 'lastName',
         email: 'Email',
         createdAt: 'Created at',
+        update: 'Edit',
+        delete: 'Delete',
         new: {
           submit: 'Register',
           signUp: 'Register',
+        },
+        edit: {
+          edit: 'Edit',
+          submit: 'Save',
         },
       },
       welcome: {
