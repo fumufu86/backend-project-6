@@ -6,7 +6,7 @@ block header
 block content 
   //- +formFor()(action=route('edit', { id: user.id }) method='post')
   //- +formFor()(action=route('update user', { id: user.id }) method='post')
-  +formFor()(action=`/users/${user.id}` method='post')
+  +formFor()(action=route('update user', { id: user.id }) method='post')
     +input(name='_method' type='hidden' value='patch')
     +input(user, 'firstName', t('views.users.new.labels.firstName'), errors)(type="text")
     +input(user, 'lastName', t('views.users.new.labels.lastName'), errors)(type="text")

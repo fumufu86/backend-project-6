@@ -22,6 +22,7 @@ export default (app) => {
       }
       await req.logIn(user);
       req.flash('success', i18next.t('flash.session.create.success'));
+      req.session.set('id', user.id);
       reply.redirect(app.reverse('root'));
       return reply;
     }))

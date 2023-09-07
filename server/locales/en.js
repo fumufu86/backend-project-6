@@ -18,9 +18,15 @@ export default {
           error: 'Failed to register',
           success: 'User registered successfully',
         },
-        edit: {
-          error: 'Failed to edit',
+        update: {
+          error: 'Failed to update',
+          unauthorized: 'Access denied! Please login',
           success: 'User edited successfully',
+        },
+        delete: {
+          error: 'Failed to delete',
+          unauthorized: 'Access denied! Please login',
+          success: 'User deleted successfully',
         },
       },
       authError: 'Access denied! Please login',
